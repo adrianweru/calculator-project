@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Akan Names</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Calculating your birthday day and your Akan name</h1>
+      <p>On this website on the check box below when you input your birth information which include your
+        date of birth ,the year you were born in and the month and also the century and once you hit the
+        submitt button your Akan name will be  generated</p>
+      </div>
+      <div class="col-md-5">
+        <div class="form-group top-form">
+          CENTURY
+          <input type="number" class="form-control" placeholder="Input the century" id="century" required min="0" max="30">
+        </div>
+        <div class="form group">
+          YEAR
+          <input type="number" class="form-control" placeholder="Enter the last two digits of the year" id="year" required min="00" max="99">
+        </div>
+        <div class="form-group">
+          MONTH
+          <input type="number" class="form-control" placeholder="Enter month of the year" id="month" required min="1" max="12">
+          <div class="form-group">
+            DAY
+            <input type="number" class="form-control" placeholder="Enter day of the month" id="day" required min="1" max="31">
+          </div>
+          <form class="radio-button">
+            <input type="radio" value="male" id="male" name="gender" required>male
+            <input type="radio" value="female" id="female" name="gender" required>Female
+            <br>
+            <div class="form-group">
+              <button type="button" class="btn-block" onclick="checkgender()">Calculate Birthday</button>
+            </div>
+            <h2>History on the Akan names</h2>
+            The Akan naming system is a ghananian culture whereby the day in which a baby is borm he or she as a name assigned to him or <header>
+              and this actually depends on the day of the week they were born in</p>
+              <h3><strong>Male Akan names</strong></h3>
+              <div class="row">
+                <div class="col-sm-4">
+                  <ul>
+                    <li>Sunday:Kwasi</li>
+                    <li>Monday:Kwadwo</li>
+                    <li>Tuesday:Kwabena</li>
+                    <li>Wednesday:Kwaku</li>
+                    <li>Thursday:Yaw</li>
+                    <li>Friday:Kofi</li>
+                    <li>Saturday:Kwame</li>
+                  </ul>
+                  <h3><em>Female Akan names</em></h3>
+                  <ol>
+                    <li>Sunday:Akosua</li>
+                    <li>Monday:Adwoa</li>
+                    <li>Tuesday:Abenaa</li>
+                    <li>Wednesday:Akua</li>
+                    <li>Thursday:Yaa</li>
+                    <li>Friday:Afua</li>
+                    <li>Saturday:Ama</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </head>
+        </body>
+        </html>
