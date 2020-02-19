@@ -18,7 +18,7 @@ You can gain access to the code for the web application by forking from my githu
 {I used html in writing the content of the web application.I used css to style the webapplication.I used JavaScript in creating the calculator for the birthday.}
 
 # Support and contact details
-If you run into any issues or have questions, ideas or concerns contact me at vicmongz254@gmail.com/0792651899 or make a contribution to the code.
+If you run into any issues or have questions, ideas or concerns contact me at adrianweru@gmail.com/0746301530 or make a contribution to the code.
 
 # License
 *{MIT License
